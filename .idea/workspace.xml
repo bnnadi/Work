@@ -2,14 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4ba476b-73a0-4321-808c-2966d8a0a31f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SFW2/ChronoBeard/index.html" afterPath="$PROJECT_DIR$/SFW2/ChronoBeard/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SFW2/ChronoBeard/dashboard.html" afterPath="$PROJECT_DIR$/SFW2/ChronoBeard/dashboard.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SFW2/ChronoBeard/css/main.css" afterPath="$PROJECT_DIR$/SFW2/ChronoBeard/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SFW2/ChronoBeard/sign_up.html" afterPath="$PROJECT_DIR$/SFW2/ChronoBeard/sign_up.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SFW2/ChronoBeard/tour.html" afterPath="$PROJECT_DIR$/SFW2/ChronoBeard/tour.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Work.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1373630361699" ignored="false" />
     <file path="/index.html" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1373656561845" ignored="false" />
     <file path="/main.css" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1373638564530" ignored="false" />
+    <file path="/sign_up.html" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1373657632987" ignored="false" />
+    <file path="/tour.html" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1373657356198" ignored="false" />
+    <file path="/dashboard.html" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1373657303661" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,10 +35,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="47" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.70183486">
+            <state line="33" column="46" selection-start="1044" selection-end="1044" vertical-scroll-proportion="-17.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sign_up.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/sign_up.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="54" column="16" selection-start="1563" selection-end="1563" vertical-scroll-proportion="1.2143928">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tour.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/tour.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="49" selection-start="997" selection-end="997" vertical-scroll-proportion="-9.666667">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/dashboard.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="45" selection-start="1087" selection-end="1087" vertical-scroll-proportion="-10.916667">
               <folding />
             </state>
           </provider>
@@ -41,7 +74,7 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="204" column="18" selection-start="3229" selection-end="3229" vertical-scroll-proportion="0.0">
+            <state line="57" column="18" selection-start="781" selection-end="781" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -65,8 +98,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/SFW2/ChronoBeard/css/main.css" />
         <option value="$PROJECT_DIR$/SFW2/ChronoBeard/index.html" />
+        <option value="$PROJECT_DIR$/SFW2/ChronoBeard/dashboard.html" />
+        <option value="$PROJECT_DIR$/SFW2/ChronoBeard/tour.html" />
+        <option value="$PROJECT_DIR$/SFW2/ChronoBeard/css/main.css" />
+        <option value="$PROJECT_DIR$/SFW2/ChronoBeard/sign_up.html" />
       </list>
     </option>
   </component>
@@ -305,16 +341,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/tour.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="49" selection-start="997" selection-end="997" vertical-scroll-proportion="-9.666667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="45" selection-start="1087" selection-end="1087" vertical-scroll-proportion="-10.916667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="204" column="18" selection-start="3229" selection-end="3229" vertical-scroll-proportion="0.0">
+        <state line="57" column="18" selection-start="781" selection-end="781" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="47" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.70183486">
+        <state line="33" column="46" selection-start="1044" selection-end="1044" vertical-scroll-proportion="-17.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/sign_up.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="16" selection-start="1563" selection-end="1563" vertical-scroll-proportion="1.2143928">
           <folding />
         </state>
       </provider>
