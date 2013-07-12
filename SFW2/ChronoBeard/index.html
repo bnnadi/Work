@@ -7,21 +7,26 @@
 		Remove this if you use the .htaccess -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-		<title>ChronBeard</title>
+		<title>ChronoBeard</title>
 		<meta name="description" content="Task Mangement site" />
 		<meta name="author" content="Bisike N. Nnadi" />
 
 		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
 
+
+        <link rel="stylesheet" href="css/normalize.css"/>
+        <link rel="stylesheet" href="css/main.css"/>
+
 		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
 		<link rel="shortcut icon" href="/favicon.ico" />
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
 	</head>
 
 	<body>
 		<div>
 			<header>
-				<h1>ChronoBeard</h1>
+				<a class="brand" href="index.html"><img src="img/logo_bw.png" alt="ChronoBeard"></a>
 			
 				<nav>
 					<ul>
@@ -31,12 +36,21 @@
 					</ul>
 				</nav>
 			</header>
+            <div class="clear"></div>
 
-			<div>
+            <div id="main_content">
+                <section id="promo">
+                    <p id="tag_line">Managing tasks can be <b>hairy</b>.</p>
+                    <img id="centerImage" src="img/placeholder.jpg">
+                </section>
+                <div class="clear"></div>
+               <section id="sign-up">
+                   <h2>ChronoBeard is a task manager for individual and team task list.</h2>
+                   <p>ChronoBeard, you can handle your daily <b>to-do list</b>, manage your <b>team tasks</b>, share a <b>online calender</b>, and yes even send <b>messages</b> to team members or clients</p>
+                   <button id="cta">Sign Up now. Yes! we are FREE!!! ></button>
+               </section>
 
-                <h2>Managing task can be <b>hairy</b></h2>
-
-			</div>
+            </div>
 
 			<footer>
 				<p>

@@ -1,0 +1,137 @@
+html {
+    background: #ffffff;
+}
+
+body {
+    margin: 0;
+    font: 62.5% helvetica, Arial, Sans-Serif;
+}
+
+header {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+    width: 100%;
+    background-color: #000000;
+    opacity: 0.8;
+}
+header  .brand {
+    width: 69%;
+    float: left;
+    color: #eeeeee;
+}
+
+header nav {
+    float: left;
+    color: #eeeeee;
+    padding: .5%;
+    margin-top: 2.4%;
+    width: auto;
+    list-style: none;
+}
+
+header nav ul {
+    width: auto;
+}
+
+header nav li {
+    float: left;
+    list-style: none;
+    padding: inherit;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #555555;
+    font-size: 1.7em;
+
+}
+
+header nav li a:hover {
+    color: #333333;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.clear {
+    margin-bottom: 8.7%;
+    clear: left;
+}
+
+#main_content {
+    width: 100%;
+}
+
+#promo {
+    position: relative;
+    background-color: #7a7a7a;
+    height: 70%;
+}
+
+#tag_line {
+    color: #ffffff;
+    font-size: 7.5em;
+    font-weight: lighter;
+    opacity: 1;
+    margin-left: 18%;
+
+}
+
+#centerImage {
+    width: 60%;
+    position: relative;
+    top: 0;
+    margin: 0 0 10% 20%;
+}
+
+#sign-up {
+    width: 80%;
+    margin-left: 20%;
+}
+
+#sign-up h2 {
+    width: 75%;
+    font-size: 2.7em;
+}
+
+#sign-up p {
+    font-size: 1.8em;
+    font-weight: lighter;
+    width: 80%;
+}
+
+#sign-up #cta {
+    margin: 3% 0 0 18%;
+    border-top: 1px solid #2d858b;
+    background: #315b5e;
+    background: -webkit-gradient(linear, left top, left bottom, from(#273536), to(#315b5e));
+    background: -webkit-linear-gradient(top, #273536, #315b5e);
+    background: -moz-linear-gradient(top, #273536, #315b5e);
+    background: -ms-linear-gradient(top, #273536, #315b5e);
+    background: -o-linear-gradient(top, #273536, #315b5e);
+    padding: 16px 32px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 18px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: #f1f5ea;
+    font-size: 24px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+#sign-up #cta:hover {
+    border-top-color: #2d858b;
+    background: #2d858b;
+    color: #e0f1c7;
+}
+#sign-up #cta:active {
+    border-top-color: #315b5e;
+    background: #315b5e;
+}
