@@ -6,6 +6,9 @@ body {
     margin: 0;
     font: 62.5% helvetica, Arial, Sans-Serif;
 }
+b {
+   color: #2d858b;
+}
 
 header {
     display: block;
@@ -95,6 +98,7 @@ header nav li a:hover {
 #sign-up h2 {
     width: 75%;
     font-size: 2.7em;
+    text-align: center;
 }
 
 #sign-up p {
@@ -136,6 +140,23 @@ header nav li a:hover {
     background: #315b5e;
 }
 
+ #mobile h2 {
+    font-size: 2.7em;
+    width: 75%;
+    text-align: center;
+ }
+
+ #mobile p {
+    font-size: 1.8em;
+     font-weight: lighter;
+    width: 80%;
+ }
+
+ #download {
+     width: 35%;
+     float: left;
+ }
+
 #window_app {
     clear: left;
 }
@@ -151,3 +172,46 @@ header nav li a:hover {
    margin-left: 0.8%;
  }
 
+ #phone {
+   width: 45%;
+   float: left;
+ }
+
+ #nokia920 {
+    float: left;
+    width: 90%;
+ }
+
+#stories h2 {
+    font-size: 2.7em;
+    width: 75%;
+    text-align: center;
+}
+
+#stories p {
+    font-size: 1.8em;
+    font-weight: lighter;
+    width: 80%;
+    margin-left: 15%;
+}
+
+#stories_list {
+    width: 70%;
+}
+
+#stories_list li {
+    display: block;
+    list-style: none;
+    padding: 0.5%;
+    border: thin #333333 solid;
+}
+
+#stories_list li a {
+    font-size: 1.6em;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+#stories_list li a:hover {
+    background-color: #777777;
+}
