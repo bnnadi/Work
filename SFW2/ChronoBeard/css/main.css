@@ -87,7 +87,7 @@ header nav li a:hover {
     margin: 0 0 10% 20%;
 }
 
-#sign-up {
+#sign-up, #mobile, #stories, #last_chance {
     width: 80%;
     margin-left: 20%;
 }
@@ -103,7 +103,7 @@ header nav li a:hover {
     width: 80%;
 }
 
-#sign-up #cta {
+.cta {
     margin: 3% 0 0 18%;
     border-top: 1px solid #2d858b;
     background: #315b5e;
@@ -126,12 +126,28 @@ header nav li a:hover {
     text-decoration: none;
     vertical-align: middle;
 }
-#sign-up #cta:hover {
+ .cta:hover {
     border-top-color: #2d858b;
     background: #2d858b;
     color: #e0f1c7;
 }
-#sign-up #cta:active {
+ .cta:active {
     border-top-color: #315b5e;
     background: #315b5e;
 }
+
+#window_app {
+    clear: left;
+}
+
+#apple_app {
+    float: left;
+    clear: left;
+}
+
+ #google_app {
+   clear: left;
+   float: left;
+   margin-left: 0.8%;
+ }
+
