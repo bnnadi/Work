@@ -1,5 +1,5 @@
 html {
-    background: #ffffff;
+    background: url("../img/squairy_light.png");
 }
 
 body {
@@ -54,7 +54,7 @@ header nav li a {
 }
 
 header nav li a:hover {
-    color: #333333;
+    color: #2d858b;
     font-size: 1.5em;
     font-weight: bold;
 }
@@ -66,6 +66,21 @@ header nav li a:hover {
 
 #main_content {
     width: 100%;
+}
+
+#drop_login {
+     background-color: #2d858b;
+     padding: .7%;
+     width: 15%;
+
+ }
+
+#drop_login label {
+
+}
+
+#drop_login input {
+
 }
 
 #promo {
@@ -134,6 +149,7 @@ header nav li a:hover {
 
 .cta a {
     text-decoration: none;
+    color: #e5e5e5;
 }
  .cta:hover {
     border-top-color: #2d858b;
@@ -182,7 +198,22 @@ header nav li a:hover {
    float: left;
  }
 
- #nokia920 {
+ #phone img {
+     width: 30%;
+     height: 30%;
+ }
+
+ #iPhone {
+    float: left;
+    width: 70%;
+ }
+
+ #samsungS3 {
+    float: left;
+    width: 70%;
+}
+
+#nokia920 {
     float: left;
     width: 90%;
  }
@@ -209,14 +240,124 @@ header nav li a:hover {
     list-style: none;
     padding: 0.5%;
     border: thin #333333 solid;
+    width: 100%;
+}
+
+#stories_list li:hover {
+    background-color: #e0f1c7;
 }
 
 #stories_list li a {
+    color: #273536;
     font-size: 1.6em;
     font-weight: lighter;
     text-decoration: none;
 }
 
-#stories_list li a:hover {
-    background-color: #777777;
+/*Every page after the index.html*/
+
+#user_color {
+    background-color: #2d858b;
+}
+
+#user_color nav li a:hover {
+    color: #f1f5ea;
+}
+
+#container {
+    margin: 10% auto 0;
+    border: #333333 solid thin;
+    background-color: #273536;
+    width: 50%;
+    padding: 1%;
+
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+}
+
+#container-inner {
+    background-color: #f1f5ea;
+    padding: 5%;
+    overflow: hidden;
+}
+
+#container-inner h2 {
+    font-size: 3.4em;
+    margin-left: 18%;
+    color: #2d858b;
+}
+
+#container-inner form {
+   margin: 20px auto;
+   width: 45%;
+}
+
+#container-inner form label {
+    font-size: 2.1em;
+    font-weight: lighter;
+    color: #315b5e;
+}
+
+#container-inner form input {
+    border:1px solid #ccc;
+    font-size:2em;
+    width: 100%;
+    min-height:30px;
+    display:block;
+    margin-bottom:15px;
+    margin-top:5px;
+    outline: none;
+
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -o-border-radius:5px;
+    -ms-border-radius:5px;
+    border-radius:5px;
+}
+
+#container-inner p {
+    font-size: 1.6em;
+    opacity: 0.7;
+    color: #273536;
+}
+
+#container-inner button {
+    float: right;
+
+    border-top: 1px solid #273536;
+    background: #2d858b;
+    background: -webkit-gradient(linear, left top, left bottom, from(#315b5e), to(#2d858b));
+    background: -webkit-linear-gradient(top, #315b5e, #2d858b);
+    background: -moz-linear-gradient(top, #315b5e, #2d858b);
+    background: -ms-linear-gradient(top, #315b5e, #2d858b);
+    background: -o-linear-gradient(top, #315b5e, #2d858b);
+    padding: 7.5px 15px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: #e0f1c7;
+    font-size: 17px;
+    font-family: Georgia, serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+#container-inner button:hover {
+    border-top-color: #273536;
+    background: #273536;
+    color: #f1f5ea;
+}
+#container-inner button:active {
+    border-top-color: #2d858b;
+    background: #2d858b;
+}
+
+#question_panel {
+    font-size: 2.1em;
+    margin: auto;
 }
