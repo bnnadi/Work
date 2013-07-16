@@ -60,7 +60,7 @@ header nav li a:hover {
 }
 
 .clear {
-    margin-bottom: 8.7%;
+    margin-bottom: 8%;
     clear: left;
 }
 
@@ -71,6 +71,7 @@ header nav li a:hover {
 #promo {
     position: relative;
     background-color: #7a7a7a;
+    padding-top: .29%;
     height: 70%;
 }
 
@@ -130,6 +131,10 @@ header nav li a:hover {
     text-decoration: none;
     vertical-align: middle;
 }
+
+.cta a {
+    text-decoration: none;
+}
  .cta:hover {
     border-top-color: #2d858b;
     background: #2d858b;
@@ -148,7 +153,7 @@ header nav li a:hover {
 
  #mobile p {
     font-size: 1.8em;
-     font-weight: lighter;
+    font-weight: lighter;
     width: 80%;
  }
 

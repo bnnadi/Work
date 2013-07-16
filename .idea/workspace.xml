@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4ba476b-73a0-4321-808c-2966d8a0a31f" name="Default" comment="" />
+    <list default="true" id="c4ba476b-73a0-4321-808c-2966d8a0a31f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/bisikennadi.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SFW2/jQuery/jquery" afterPath="$PROJECT_DIR$/SFW2/jQuery/jquery" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SFW2/Activities/Day4/activity1/Activity-4-1.html" afterPath="$PROJECT_DIR$/SFW2/Activities/Day4/activity1/Activity-4-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SFW2/ChronoBeard/index.html" afterPath="$PROJECT_DIR$/SFW2/ChronoBeard/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SFW2/ChronoBeard/css/main.css" afterPath="$PROJECT_DIR$/SFW2/ChronoBeard/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Work.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1373984778698" ignored="false" />
-    <file path="/index.html" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1373656561845" ignored="false" />
-    <file path="/main.css" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1373638564530" ignored="false" />
+    <file path="/index.html" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1373985212260" ignored="false" />
+    <file path="/main.css" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1373985721494" ignored="false" />
     <file path="/sign_up.html" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1373657632987" ignored="false" />
     <file path="/tour.html" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1373657356198" ignored="false" />
     <file path="/dashboard.html" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1373657303661" ignored="false" />
+    <file path="/Activity-4-1.html" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1373989094573" ignored="false" />
+    <file path="/tooltop.js" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1373989142915" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,34 +43,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="46" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sign_up.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/sign_up.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="16" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.5622189">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tour.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/tour.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="49" selection-start="997" selection-end="997" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dashboard.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/dashboard.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="45" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.0">
+            <state line="28" column="73" selection-start="914" selection-end="914" vertical-scroll-proportion="-8.75">
               <folding />
             </state>
           </provider>
@@ -68,8 +52,37 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="18" selection-start="781" selection-end="781" vertical-scroll-proportion="0.0">
+            <state line="27" column="41" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Activity-4-1.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SFW2/Activities/Day4/activity1/Activity-4-1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="64" selection-start="1344" selection-end="1344" vertical-scroll-proportion="-17.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tooltop.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SFW2/Activities/Day4/activity1/js/tooltop.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="1" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.8480463">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery-1.10.2.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SFW2/Activities/Day4/activity1/js/jquery-1.10.2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9796" column="13" selection-start="379105" selection-end="379105" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,18 +105,43 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/SFW2/ChronoBeard/index.html" />
         <option value="$PROJECT_DIR$/SFW2/ChronoBeard/dashboard.html" />
         <option value="$PROJECT_DIR$/SFW2/ChronoBeard/tour.html" />
-        <option value="$PROJECT_DIR$/SFW2/ChronoBeard/css/main.css" />
         <option value="$PROJECT_DIR$/SFW2/ChronoBeard/sign_up.html" />
+        <option value="$PROJECT_DIR$/SFW2/ChronoBeard/index.html" />
+        <option value="$PROJECT_DIR$/SFW2/Activities/Day4/activity1/tooltop.js" />
+        <option value="$PROJECT_DIR$/SFW2/Activities/Day4/activity1/jquery/jquery-1.10.2.js" />
+        <option value="$PROJECT_DIR$/SFW2/Activities/Day4/activity1/js/jquery-1.10.2.js" />
+        <option value="$PROJECT_DIR$/SFW2/ChronoBeard/css/main.css" />
+        <option value="$PROJECT_DIR$/SFW2/Activities/Day4/activity1/js/tooltop.js" />
+        <option value="$PROJECT_DIR$/SFW2/Activities/Day4/activity1/Activity-4-1.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="108" />
     <option name="y" value="22" />
-    <option name="width" value="1440" />
+    <option name="width" value="1332" />
     <option name="height" value="837" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpellCheckingInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -182,12 +220,139 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SFW2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChronoBeard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SFW2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Activities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Day4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SFW2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Activities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Day4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activity1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SFW2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Activities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Day4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activity1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SFW2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Activities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="Errors" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SFW2/Activities/Day4/activity1/js" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -217,13 +382,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="837" extended-state="0" />
-    <editor active="false" />
+    <frame x="108" y="22" width="1332" height="837" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.151729" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22459893" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -232,7 +398,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -362,23 +527,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/css/main.css">
+    <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/sign_up.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="18" selection-start="781" selection-end="781" vertical-scroll-proportion="0.0">
+        <state line="54" column="16" selection-start="1563" selection-end="1563" vertical-scroll-proportion="-16.541666">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SFW2/Activities/Day4/activity1/Instructions.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="46" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.0">
+        <state line="28" column="73" selection-start="914" selection-end="914" vertical-scroll-proportion="-8.75">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/sign_up.html">
+    <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="16" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.5622189">
+        <state line="27" column="41" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SFW2/Activities/Day4/activity1/js/jquery-1.10.2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9796" column="13" selection-start="379105" selection-end="379105" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SFW2/Activities/Day4/activity1/Activity-4-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="64" selection-start="1344" selection-end="1344" vertical-scroll-proportion="-17.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SFW2/Activities/Day4/activity1/js/tooltop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="1" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.8480463">
           <folding />
         </state>
       </provider>
