@@ -29,6 +29,7 @@ header  .brand {
 
 header nav {
     float: left;
+    clear: right;
     color: #eeeeee;
     padding: .5%;
     margin-top: 2.4%;
@@ -70,10 +71,10 @@ header nav li a:hover {
 
 #drop_login {
     float: right;
-     background-color: #2d858b;
-     padding: 5%;
-     width: 100%;
-
+    background-color: #2d858b;
+    padding: 5%;
+    width: 100%;
+    z-index: 1035;
  }
 
 #drop_login label {
@@ -90,6 +91,15 @@ header nav li a:hover {
     margin-bottom:15px;
     margin-top:5px;
     outline: none;
+}
+
+#drop_login button {
+    width: 40%;
+    padding: 3%;
+    background-color: #273536;
+    color: #e0f1c7;
+    font-size: 1.5em;
+    border-radius: 15px;
 }
 
 #promo {
