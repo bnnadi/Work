@@ -69,9 +69,10 @@ header nav li a:hover {
 }
 
 #drop_login {
+    float: right;
      background-color: #2d858b;
-     padding: 2%;
-     width: 15%;
+     padding: 5%;
+     width: 100%;
 
  }
 
