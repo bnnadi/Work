@@ -73,8 +73,8 @@ header nav li a:hover {
     float: right;
     background-color: #2d858b;
     padding: 5%;
-    width: 100%;
-    z-index: 1035;
+    width: 85%;
+    position: relative;
  }
 
 #drop_login label {
@@ -379,4 +379,18 @@ header nav li a:hover {
 #question_panel {
     font-size: 2.1em;
     margin: auto;
+}
+
+.column {
+    float: left;
+    background-color: #273536;
+    border-radius: 15px;
+    width: auto;
+    height: 100%;
+    margin: 3% auto;
+    padding: 2%;
+}
+
+footer {
+    clear: both;
 }
