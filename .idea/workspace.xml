@@ -5,19 +5,17 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SFW2/jQuery/jquery" afterPath="$PROJECT_DIR$/SFW2/jQuery/jquery" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SFW2/Activities/Day4/activity1/js" afterPath="$PROJECT_DIR$/SFW2/Activities/Day4/activity1/js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SFW2/ChronoBeard/dashboard.html" afterPath="$PROJECT_DIR$/SFW2/ChronoBeard/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SFW2/ChronoBeard/index.html" afterPath="$PROJECT_DIR$/SFW2/ChronoBeard/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SFW2/ChronoBeard/css/main.css" afterPath="$PROJECT_DIR$/SFW2/ChronoBeard/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SFW2/ChronoBeard/js/main.js" afterPath="$PROJECT_DIR$/SFW2/ChronoBeard/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SFW2/ChronoBeard/sign_up.html" afterPath="$PROJECT_DIR$/SFW2/ChronoBeard/sign_up.html" />
     </list>
     <ignored path="Work.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1374169950884" ignored="false" />
-    <file path="/index.html" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1374172070632" ignored="false" />
-    <file path="/main.css" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1374172947986" ignored="false" />
-    <file path="/sign_up.html" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1374154379524" ignored="false" />
+    <file path="/Dummy.txt" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1374325489301" ignored="false" />
+    <file path="/index.html" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1374328081627" ignored="false" />
+    <file path="/main.css" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1374326234651" ignored="false" />
+    <file path="/sign_up.html" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1374327110359" ignored="false" />
     <file path="/tour.html" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1374154384351" ignored="false" />
-    <file path="/dashboard.html" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1374172858821" ignored="false" />
+    <file path="/dashboard.html" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1374327652355" ignored="false" />
     <file path="/Activity-4-1.html" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1373989094573" ignored="false" />
     <file path="/tooltop.js" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1373989142915" ignored="false" />
     <file path="/Activity-4-2.html" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1373991152216" ignored="false" />
@@ -42,28 +40,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/index.html">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SFW2/Activities/Day6/uidemos/store/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="65" selection-start="1104" selection-end="1104" vertical-scroll-proportion="-10.5">
+            <state line="198" column="75" selection-start="6799" selection-end="6799" vertical-scroll-proportion="0.7706422">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/css/main.css">
+      <file leaf-file-name="jquery.jfollow.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SFW2/Activities/Day6/uidemos/store/js/jquery.jfollow.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="23" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="1" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -71,20 +60,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="landing.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/templates/landing.html">
+      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SFW2/Activities/Day6/uidemos/store/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="72" selection-start="255" selection-end="255" vertical-scroll-proportion="0.2923538">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dashboard.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/dashboard.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="36" selection-start="999" selection-end="999" vertical-scroll-proportion="-4.6666665">
-              <folding />
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,7 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/SFW2/Activities/Day4/activity1/jquery/jquery-1.10.2.js" />
         <option value="$PROJECT_DIR$/SFW2/Activities/Day4/activity1/js/jquery-1.10.2.js" />
         <option value="$PROJECT_DIR$/SFW2/Activities/Day4/activity1/js/tooltop.js" />
         <option value="$PROJECT_DIR$/SFW2/Activities/Day4/activity1/Activity-4-1.html" />
@@ -115,14 +96,15 @@
         <option value="$PROJECT_DIR$/SFW2/Activities/Day4/activity2/Activity-4-2.html" />
         <option value="$PROJECT_DIR$/SFW2/Activities/Day4/activity2/js/easingIn.js" />
         <option value="$PROJECT_DIR$/SFW2/ChronoBeard/js/main.js" />
-        <option value="$PROJECT_DIR$/SFW2/ChronoBeard/sign_up.html" />
         <option value="$PROJECT_DIR$/SFW2/ChronoBeard/tour.html" />
         <option value="$PROJECT_DIR$/SFW2/ChronoBeard/index.html" />
         <option value="$USER_HOME$/Site/ChronoBeard/index.html" />
-        <option value="$PROJECT_DIR$/SFW2/ChronoBeard/dashboard.html" />
         <option value="$USER_HOME$/Site/ChronoBeard/dashboard.html" />
-        <option value="$PROJECT_DIR$/SFW2/ChronoBeard/css/main.css" />
         <option value="$USER_HOME$/Site/ChronoBeard/css/main.css" />
+        <option value="$PROJECT_DIR$/SFW2/ChronoBeard/css/main.css" />
+        <option value="$PROJECT_DIR$/SFW2/ChronoBeard/sign_up.html" />
+        <option value="$PROJECT_DIR$/SFW2/ChronoBeard/dashboard.html" />
+        <option value="$PROJECT_DIR$/SFW2/Activities/Day6/uidemos/store/index.html" />
       </list>
     </option>
   </component>
@@ -176,7 +158,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -241,11 +222,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ChronoBeard" />
+              <option name="myItemId" value="Activities" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="Day6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uidemos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="store" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -263,7 +252,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ChronoBeard" />
+              <option name="myItemId" value="Activities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Day6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uidemos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="store" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -285,16 +286,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ChronoBeard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="Activities" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -302,8 +300,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="fileTemplates" />
     <property name="last_opened_file_path" value="$USER_HOME$/Site/ChronoBeard/dashboard.html" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -343,7 +341,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="837" extended-state="1" />
+    <frame x="0" y="22" width="1440" height="837" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -426,33 +424,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SFW2/Activities/Day5/ajax-simple/js/jquery-1.8.3.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SFW2/Activities/Day4/activity1/js/jquery-1.10.2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SFW2/Activities/Day4/activity1/js/tooltop.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="54" selection-start="587" selection-end="587" vertical-scroll-proportion="0.45730826" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/sign_up.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="12" selection-start="839" selection-end="839" vertical-scroll-proportion="-3.4166667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/tour.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="12" selection-start="839" selection-end="839" vertical-scroll-proportion="-5.9166665">
-          <folding />
-        </state>
+        <state line="26" column="12" selection-start="839" selection-end="839" vertical-scroll-proportion="-5.9166665" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SFW2/Activities/Day5/ajax-simple/js/main.js">
@@ -467,58 +441,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/templates/app.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Site/ChronoBeard/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="65" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.7798165">
-          <folding />
-        </state>
+        <state line="34" column="65" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.7798165" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Site/ChronoBeard/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="36" selection-start="999" selection-end="999" vertical-scroll-proportion="-10.291667">
-          <folding />
-        </state>
+        <state line="32" column="36" selection-start="999" selection-end="999" vertical-scroll-proportion="-10.291667" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Site/ChronoBeard/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="23" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="76" column="23" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/js/main.js">
+    <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/sign_up.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="1" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="23" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="65" selection-start="1104" selection-end="1104" vertical-scroll-proportion="-10.5">
+        <state line="51" column="139" selection-start="2017" selection-end="2017" vertical-scroll-proportion="0.5847076">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="36" selection-start="999" selection-end="999" vertical-scroll-proportion="-4.6666665">
+        <state line="62" column="28" selection-start="1904" selection-end="1904" vertical-scroll-proportion="0.8545727">
           <folding />
         </state>
       </provider>
@@ -526,6 +476,52 @@
     <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/templates/landing.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="72" selection-start="255" selection-end="255" vertical-scroll-proportion="0.2923538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="1" selection-start="58" selection-end="58" vertical-scroll-proportion="0.08683068">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="17" selection-start="945" selection-end="945" vertical-scroll-proportion="0.8031838">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SFW2/ChronoBeard/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="65" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.02293578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SFW2/Activities/Day6/uidemos/store/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SFW2/Activities/Day6/uidemos/store/js/jquery.jfollow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SFW2/Activities/Day6/uidemos/store/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="198" column="75" selection-start="6799" selection-end="6799" vertical-scroll-proportion="0.7706422">
           <folding />
         </state>
       </provider>

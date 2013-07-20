@@ -51,13 +51,19 @@ header nav li a {
     text-decoration: none;
     color: #555555;
     font-size: 1.7em;
-
 }
 
 header nav li a:hover {
     color: #2d858b;
     font-size: 1.5em;
     font-weight: bold;
+}
+
+.user {
+    font-size: 1.5em;
+    color: #f1f5ea;
+    font-weight: lighter;
+    margin-top: 1%;
 }
 
 .clear {
@@ -383,7 +389,7 @@ header nav li a:hover {
 
 .column {
     float: left;
-    background-color: #273536;
+    background-color: #315b5e;
     border-radius: 15px;
     width: auto;
     height: 100%;
