@@ -5,6 +5,8 @@
 
 $(function(){
 
+    $('#scart').jfollow('#cartfollow',20);
+
     var win = $(window);
 
     $('.productitem').draggable({

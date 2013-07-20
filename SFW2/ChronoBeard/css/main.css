@@ -71,7 +71,7 @@ header nav li a:hover {
     clear: left;
 }
 
-#main_content {
+.main_content {
     width: 100%;
 }
 
@@ -81,6 +81,7 @@ header nav li a:hover {
     padding: 5%;
     width: 85%;
     position: relative;
+    z-index: 1035;
  }
 
 #drop_login label {

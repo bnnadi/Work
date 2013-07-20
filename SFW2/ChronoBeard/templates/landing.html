@@ -6,9 +6,129 @@
 -->
 
 <div>
-	<script type="text/template" id="template_landing">
+	<script type="text/template" id="template_landing_header">
 	
 		<!-- core landing page html -->
-	
+        <header>
+            <a class="brand" href="index.html"><img src="img/logo.png" alt="ChronoBeard"></a>
+
+            <nav>
+                <ul>
+                    <li><a href="sign_up.html">SIGN IN</a></li>
+                    <li class="login"><a href="dashboard.html">LOGIN</a></li>
+                </ul>
+                <!-- The login drop down -->
+                <!--<div id="drop_login">
+                    <form>
+                        <label>Username</label>
+                        <input>
+                        <br>
+                        <label>Password</label>
+                        <input>
+                        <button>Comb it</button>
+                    </form>
+                </div>-->
+            </nav>
+        </header>
+    </script>
+</div>
+
+<div>
+    <script type="text/template" id="template_landing_body">
+        <div class="clear"></div>
+        <div class="main_content">
+            <section id="promo">
+                <p id="tag_line">Managing tasks can be <b>hairy</b>.</p>
+                <img id="centerImage" src="img/placeholder.jpg">
+            </section>
+            <div class="clear"></div>
+            <section id="sign-up">
+                <h2>ChronoBeard is a task manager for individual and team task list.</h2>
+                <p>ChronoBeard, you can handle your daily <b>to-do list</b>, manage your <b>team tasks</b>, share a <b>online calender</b>, and yes even send <b>messages</b> to team members or clients</p>
+                <button class="cta"><a href="sign_up.html">Sign Up now. Yes! we are FREE!!! ></a></button>
+            </section>
+            <div class="clear"></div>
+            <section id="mobile">
+                <h2>Keep track of everything on you mobile device</h2>
+                <p>Free apps for Windows phone, iOS, Android (Blackberry app coming soon). Everything will update automatically on your mobile. You don't have to do anything.</p>
+
+                <div id="download">
+                    <a id="windows_app" href="#"><img src="img/windows%20store.jpeg"></a>
+                    <a id="google_app" href="#"><img src="img/googleplay-app.png"></a>
+                    <a id="apple_app" href="#"><img src="img/apple_appStore.png"></a>
+                </div>
+                <div id="phone">
+                    <img id="iPhone" src="img/iPhone5.png">
+                    <img id="nokia920" src="img/Nokia-Lumia-920.png">
+                    <img id="samsungS3" src="img/Samsung_Galaxy_S3.jpg">
+                </div>
+            </section>
+            <div class="clear"></div>
+            <section id="stories">
+                <h2>Customer Success Stories</h2>
+                <p>Find out how <b>ChronoBeard</b> as help organize and focus their lifes.</p>
+                <ul id="stories_list">
+                    <li><a href="#"><b>Task Management:</b> I was able  arrange my task. - <i>Jimmy Montania, Billings, Montana</i></a></li>
+                    <li><a href="#"><b>Sleek Mobile device:</b> Can access my task and calender anyway - <i>Draco Malfory, London, England</i></a></li>
+                    <li><a href="#"><b>Team Sharing:</b> Each team member was able to see each others task - <i>Jose Patron, Mexico</i></a></li>
+                    <li><a href="#"><b>Easy to use:</b> I wasn't confused when I got to my dashboard like I normally am with other products - <i>Andrew Wulf, Nagoya, Japan</i></a></li>
+                    <li><a href="#"><b>Time Management:</b> Was able to complete each task with efficiency - <i>Ace Ventura, New York, New York</i></a></li>
+                </ul>
+            </section>
+
+            <div id="last_chance">
+                <button class="cta"><a href="sign_up.html"> Sign Up now. ></a></button>
+            </div>
+
+        </div>
+    </script>
+</div>
+
+<div>
+    <script type="text/template" id="signupform">
+
+        <!-- core signup form page html -->
+        <div class="clear"></div>
+
+        <div class="main_content">
+            <div class="clear"></div>
+            <div id="container">
+                <div id="container-inner">
+                    <h2>Let's mantain that Beard</h2>
+                    <form>
+                        <label>First Name</label>
+                        <input type="text" id="first_name" name="full_name" placeholder="John" title="Please enter your first name" required> <br>
+                        <label>Last Name</label>
+                        <input type="text" id="last_name" name="full_name" placeholder="Doe" title="Please enter your last name" required><br>
+                        <label>Email</label>
+                        <input type="text" id="email" name="full_name" placeholder="john.doe@hotmail.com" title="Please enter your email" required><br>
+
+                        <p>Choose a username and password.</p>
+
+                        <label>User Name</label>
+                        <input type="text" id="user_name" name="full_name" placeholder="jDoe" required><br>
+                        <label>Create Password</label>
+                        <input type="text" id="password" name="full_name" placeholder="********" required><br>
+                    </form>
+
+                    <button id="signedUp">Fix your Beard</button>
+
+                </div>
+            </div>
+
+            <div class="clear"></div>
+
+    </script>
+</div>
+
+
+
+<div>
+    <script type="text/template" id="template_landing_footer">
+        <footer>
+            <p>
+                &copy; Copyright  by Bisike N. Nnadi
+            </p>
+        </footer>
 	</script>
 </div>

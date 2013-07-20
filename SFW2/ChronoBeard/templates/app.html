@@ -7,9 +7,19 @@
 
 <div>
 
-	<script type="text/template" id="template_app">
+	<script type="text/template" id="template_app_header">
 	
 		<!-- core application skeleton html -->
+        <header id="user_color">
+            <a class="brand" href="index.html"><img src="img/logo_2.png" alt="ChronoBeard"></a>
+
+            <nav>
+                <ul>
+                    <li class="user">USERNAME</li>
+                    <li><a class="login" href="#">LOG OUT</a></li>
+                </ul>
+            </nav>
+        </header>
 	
 	</script>
 	
@@ -24,10 +34,50 @@
 	<script type="text/template" id="template_task_view">
 	
 		<!-- repeatable html for full task data in list -->
+        <div class="clear"></div>
+
+        <div class="main_content">
+
+            <div class="clear"></div>
+
+            <div class="column">
+                <h2>Calender</h2>
+                <div id="datepicker"></div>
+            </div>
+            <div class="column">
+                <h2>Title</h2>
+                <div id="accordin">
+                    <div class="sortable">
+                        <h3></h3>
+                        <div>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <h2>Messaging</h2>
+                <div>
+                    <input >
+                </div>
+            </div>
+
+        </div>
 	
 	</script>
 	
 	
 	<!-- more component templates here -->
+    <script type="text/template" id="template_app_footer">
+
+        <!-- core application skeleton html -->
+        <footer>
+            <p>
+                &copy; Copyright  by Bisike N. Nnadi
+            </p>
+        </footer>
+
+    </script>
+
 	
 </div>
