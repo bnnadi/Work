@@ -27,7 +27,7 @@ header  .brand {
     color: #eeeeee;
 }
 
-header nav {
+ nav {
     float: left;
     clear: right;
     color: #eeeeee;
@@ -37,33 +37,43 @@ header nav {
     list-style: none;
 }
 
-header nav ul {
+ nav ul {
     width: auto;
 }
 
-header nav li {
+ nav li {
     float: left;
     list-style: none;
     padding: inherit;
 }
 
-header nav li a {
+ nav li a {
     text-decoration: none;
     color: #555555;
     font-size: 1.7em;
 }
 
-header nav li a:hover {
+ nav li a:hover {
     color: #2d858b;
     font-size: 1.5em;
     font-weight: bold;
 }
 
 .user {
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: #f1f5ea;
     font-weight: lighter;
     margin-top: 1%;
+}
+
+#logout a {
+    text-decoration: none;
+    color: #555555;
+    font-size: 1.7em;
+}
+
+.hidden {
+    display: none;
 }
 
 .clear {
@@ -73,15 +83,18 @@ header nav li a:hover {
 
 .main_content {
     width: 100%;
+    clear: both;
+    margin: 0 auto;
 }
 
 #drop_login {
     float: right;
     background-color: #2d858b;
     padding: 5%;
-    width: 85%;
+    width: 65%;
     position: relative;
     z-index: 1035;
+
  }
 
 #drop_login label {
@@ -100,7 +113,14 @@ header nav li a:hover {
     outline: none;
 }
 
+#drop_login p {
+    float: left;
+    width: 55%;
+    margin-left: 5%;
+}
+
 #drop_login button {
+    float: left;
     width: 40%;
     padding: 3%;
     background-color: #273536;

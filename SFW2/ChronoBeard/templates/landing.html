@@ -10,26 +10,28 @@
 	
 		<!-- core landing page html -->
         <header>
-            <a class="brand" href="index.html"><img src="img/logo.png" alt="ChronoBeard"></a>
+            <a class="brand" href="#"><img src="img/logo.png" alt="ChronoBeard"></a>
 
             <nav>
                 <ul>
-                    <li><a href="sign_up.html">SIGN IN</a></li>
-                    <li class="login"><a href="dashboard.html">LOGIN</a></li>
+                    <li class="newUser"><a href="#">SIGN UP</a></li>
+                    <li class="login"><a href="#">LOGIN</a></li>
                 </ul>
                 <!-- The login drop down -->
-                <!--<div id="drop_login">
+                <div id="drop_login" class="hidden">
                     <form>
                         <label>Username</label>
-                        <input>
+                        <input id="login_user">
                         <br>
                         <label>Password</label>
-                        <input>
-                        <button>Comb it</button>
+                        <input id="login_pass">
+                        <p id="close"><a>cancel</a></p>
+                        <button id="submit">Comb it</button>
                     </form>
-                </div>-->
+                </div>
             </nav>
         </header>
+
     </script>
 </div>
 
@@ -45,7 +47,7 @@
             <section id="sign-up">
                 <h2>ChronoBeard is a task manager for individual and team task list.</h2>
                 <p>ChronoBeard, you can handle your daily <b>to-do list</b>, manage your <b>team tasks</b>, share a <b>online calender</b>, and yes even send <b>messages</b> to team members or clients</p>
-                <button class="cta"><a href="sign_up.html">Sign Up now. Yes! we are FREE!!! ></a></button>
+                <button class="cta"><a href="#">Sign Up now. Yes! we are FREE!!! ></a></button>
             </section>
             <div class="clear"></div>
             <section id="mobile">
@@ -77,7 +79,7 @@
             </section>
 
             <div id="last_chance">
-                <button class="cta"><a href="sign_up.html"> Sign Up now. ></a></button>
+                <button class="cta"><a href="#"> Sign Up now. ></a></button>
             </div>
 
         </div>
@@ -108,10 +110,10 @@
                         <label>User Name</label>
                         <input type="text" id="user_name" name="full_name" placeholder="jDoe" required><br>
                         <label>Create Password</label>
-                        <input type="text" id="password" name="full_name" placeholder="********" required><br>
+                        <input type="text" id="pass" name="full_name" placeholder="********" required><br>
                     </form>
 
-                    <button id="signedUp">Fix your Beard</button>
+                    <button id="signedUp"><a href="#">Fix your Beard</a></button>
 
                 </div>
             </div>

@@ -15,8 +15,9 @@
 
             <nav>
                 <ul>
-                    <li class="user">USERNAME</li>
-                    <li><a class="login" href="#">LOG OUT</a></li>
+                    <li class="hidden">{{=id}}</li>
+                    <li class="user">{{=user_n}}</li>
+                    <li id="logout"><a href="#">LOG OUT</a></li>
                 </ul>
             </nav>
         </header>
@@ -45,14 +46,24 @@
                 <div id="datepicker"></div>
             </div>
             <div class="column">
-                <h2>Title</h2>
-                <div id="accordin">
-                    <div class="sortable">
-                        <h3></h3>
-                        <div>
-                            <p></p>
+                <div id="tabs">
+                <ul>
+                    <li><a href="#myView"></a> </li>
+                    <li><a href="#by_date"></a> </li>
+                    <li><a href="#by_color"></a> </li>
+                </ul>
+                    <div id="myView">
+                        <div id="accordion">
+                            <div class="sortable">
+                                <h3>{{=projectName} | {{=clientName}} </h3>
+                                    <div>
+                                        <p>{{=projectDescription}}</p>
+                                    </div>
+                            </div>
                         </div>
                     </div>
+                    <div id="by_date"></div>
+                    <div id="by_color"></div>
                 </div>
             </div>
             <div class="column">
