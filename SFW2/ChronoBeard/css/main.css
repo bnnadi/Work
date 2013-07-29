@@ -3,8 +3,9 @@ html {
 }
 
 body {
-    margin: 0;
+    margin: 0 auto;
     font: 62.5% helvetica, Arial, Sans-Serif;
+    max-width: 960px;
 }
 b {
    color: #2d858b;
@@ -73,12 +74,12 @@ header  .brand {
 }
 
 .hidden {
-    display: none;
+   display: none;
 }
 
 .clear {
-    margin-bottom: 8%;
-    clear: left;
+    margin-bottom: 12%;
+    clear: both;
 }
 
 .main_content {
@@ -88,11 +89,12 @@ header  .brand {
 }
 
 #drop_login {
-    float: right;
     background-color: #2d858b;
-    padding: 5%;
-    width: 65%;
-    position: relative;
+    width: 15%;
+    padding: 2%;
+    position: absolute;
+    top: 116px;
+    right: 70px;
     z-index: 1035;
 
  }
@@ -414,8 +416,74 @@ header  .brand {
     border-radius: 15px;
     width: auto;
     height: 100%;
-    margin: 3% auto;
+    margin: 3% 3%;
     padding: 2%;
+}
+
+.mainFocus {
+    width: 55%;
+    margin: 3% 1%;
+}
+
+.accordion{
+    width: 100%;
+}
+
+.accordion h3 {
+    font-size: 1.8em;
+    font-weight: bolder;
+    color: #333333;
+}
+
+.accordion p {
+    font-size: 1.4em;
+    color: #599fcf;
+}
+
+.droppable {
+    margin-bottom: 2%;
+}
+
+.redStatus {
+    width: auto;
+    background-color: lightcoral;
+    border: 1px red solid;
+}
+
+.orangeStatus {
+    width: auto;
+    background-color: lightsalmon;
+    border: 1px orange solid;
+}
+
+.yellowStatus {
+    width: auto;
+    background-color: lightyellow;
+    border: 1px #ffff00 solid;
+}
+
+.greenStatus {
+    width: auto;
+    background-color: lightgreen;
+    border: 1px green solid;
+}
+
+.blueStatus {
+    width: auto;
+    background-color: lightblue;
+    border: 1px blue solid;
+}
+
+#addNew {
+    float: right;
+    color: #2d858b;
+    width: 5%;
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+#addNew:hover {
+    color: #599fcf;
 }
 
 footer {
