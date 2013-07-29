@@ -145,7 +145,7 @@ $(document).ready(function() {
     var showLogin = function(){
         console.log('Drop login');
 
-         $('#drop_login').show('slide', {direction: 'down'});
+         $('#drop_login').show('slide', {direction: 'up'});
     };
 
     var hideLogin = function(){
@@ -286,7 +286,6 @@ $(document).ready(function() {
                     for(var i = 0; i < projects.length; i++){
                         id = projects[i].id;
                         projectList +=
-                            '<div class="group hidden projectList">' +
                                 '<h3><b>' + projects[i].projectName + '</b> |' + projects[i].clientName +'|' +projects[i].status + '</h3>' +
                                 '<div class="info">'+
                                 '<div class="infoMain">'+
@@ -320,11 +319,10 @@ $(document).ready(function() {
                                             '<textarea type="text" id="projDescrip">'+ projects[i].projectDescription + '</textarea>'+
                                         '</fieldset>'+
                                         '<a class="cancelUpdate">Cancel</a>  <button class="updateProject">Update</button>'+
-                                    '</form>'+
-                                '</div>'
+                                    '</form>'
                     }
 
-                    $('.accordion').append(projectList);
+                    $(' .accordion').append(projectList);
                     $('.projectList').show();
                 }
             }
@@ -382,31 +380,128 @@ $(document).ready(function() {
                     var tasks =  response.tasks;
                     console.log(tasks);
                     var  tList = '';
-                    for(var i = 0; tasks.length; i++){
+                    for(var i = 0; i < tasks.length; i++){
                         tList +=
-                            '<div class="hidden taskList" title='+ projName+ ' Tasks">' +
-                            '<ul>'+
-                            '<li id="taskInfo"><a>' + tasks[i].priority + ' | '+ tasks[i].taskName + '</a></li>'+
-                            '/ul>'+
-                            '</div>'
+                            '<li id="taskInfo"><a>' + tasks[i].priority + ' | <i>'+ tasks[i].taskName + '</i> | '+ tasks[i].assignedTo +
+                            '</a><span class="hidden">' + tasks[i].projectID + '</span></li>'
+
                     }
-                    $('.taskList').append(tList);
-//                    $('.taskList').dialog({
-//                        height: 300,
-//                        buttons: [{
-//                            text: 'Add Task',
-//                            click: function(){
-//                                $('#newTask').dialog({
-//                                    modal: true
-//                                });
-//                            }
-//                        },
-//                            {
-//                                text: 'close',
-//                                click: function(){$(this).dialog('close')}
-//                            }]
-//
-//                    });
+                   $('.taskList > ul').append(tList);
+                    $('.taskList').dialog({
+                        height: 300,
+                        buttons: [{
+                            text: 'Add Task',
+                            click: function(){
+                                $('#newTask').dialog({
+                                    modal: true
+                                });
+                            }
+                        },
+                            {
+                                text: 'close',
+                                click: function(){
+                                    $('.taskList > ul').empty();
+                                    $(this).dialog('close');
+                                }
+                            }]
+
+                    });
+                }
+            }
+        })
+    };
+
+    var viewTasks = function(projID, tName){
+        id = projID
+        $.ajax({
+            url:'xhr/get_tasks.php',
+            data: {projectID: projID},
+            type:'get',
+            dataType: 'json',
+            success: function(response){
+                console.log(response)
+
+                if(response.error){
+                    alert('You can not access the Task for this Project');
+                }else{
+                    var tasks =  response.tasks;
+                    var tView = "";
+                    for(var i = 0; i < tasks.length; i++)
+                    {
+                        if(tName == tasks[i].taskName)
+                        {
+                            console.log(tasks[i].taskName)
+
+                            tView +=
+                               ' <label class="projectId">Proj. Id: '+ tasks[i].projectID +'</label><br> ' +
+                               ' <label class="clientName">Client: '+ tasks[i].clientName +'</label> ' + ' '+
+                               ' <label class="clientId">, Id:'+ tasks[i].clientID +'</label><br> ' +
+                               '<label>Task Status: ' + tasks[i].status +'</label>' +
+                               '<input class="hidden" type="text" class="taskStatus" ><br>' +
+                               '<label>Task Name: '+ tasks[i].taskName +'</label> ' +
+                               ' <input class="hidden" type="text" class="taskName" ><br>' +
+                                '<label>Task Creator: '+  tasks[i].taskCreator +'</label> ' +
+                                '<input class="hidden" type="text" class="creator"><br> ' +
+                                '<label>Taskee ID:'+ tasks[i].taskeeID +'</label> ' +
+                                '<input class="hidden" type="text" class="taskeeID"><br> ' +
+                                '<label>Task Assigned To:'+ tasks[i].assignedTo +'</label>  ' +
+                                '<input class="hidden" type="text" class="taskeeID"><br>' +
+                                '<label>Priority: '+ tasks[i].priority +'</label>  ' +
+                                '<input class="hidden" type="text" class="priority"><br>' +
+                                '<label>Start Date: '+ tasks[i].startDate +'</label>  ' +
+                                '<input class="hidden" type="text" class="date stDate"><br> ' +
+                                '<label>Due Date: '+ tasks[i].dueDate +'</label> ' +
+                                '<input class="hidden" type="text" class="date duDate"><br>  ' +
+                                '<label>Task Description: </label> ' +
+                                '<p>'+ tasks[i].taskDescription +'</p>' +
+                                '<textarea class="hidden" type="text" class="taskDescrip">'+ tasks[i].taskDescription +'</textarea><br> '+
+                                '<span class="hidden">Task ID: ' + tasks[i].id + '</span>' + '  ' +
+                                '<label class="hidden">Updated Date: '+ tasks[i].updatedDate +'</label> ' +
+                                '<input class="hidden" type="text" class="date upDate"><br>  '
+
+                        };
+
+                    };
+                            $('.taskView > form > fieldset').append(tView);
+
+                           $('.taskView').dialog({
+                               modal: true,
+                               height: 300,
+                               width: 'content',
+                               buttons: [{
+                                   text: 'close',
+                                    click: function(){
+                                        $('.taskView').empty();
+                                        $(this).dialog('close');
+                                    }
+                                },
+                                    {
+                                   text: 'Update Task',
+                                     click: function(){
+                                        //$('.taskView').empty();
+                                         console.log($(this));
+                                         var unhide = $(this).children();
+                                         var unhide2 = unhide.children();
+                                         var unhide3 = unhide2.children();
+                                         console.log(unhide3.length);
+
+                                         for(var i = 0; i < (unhide3.length -1); i++){
+                                             $(unhide3).show('bounce');
+                                         }
+                                         // hide the button
+                                        }
+                                    },
+                                   {
+                                       text: 'UPDATE',
+                                       click: function(){
+                                           console.log($('.id').html())
+                                           updateTasks($('.id').val());
+                                           $(this).dialog('close');
+                                       }
+                                   }]
+
+                            });
+
                 }
             }
         })
@@ -439,7 +534,33 @@ $(document).ready(function() {
         })
     };
 
-    //var updateTasks = function(){};
+    var updateTasks = function(taskId){
+
+        $.ajax({
+            url: 'xhr/update_task.php',
+            data: {
+                taskID: taskId,
+                taskName: $('.taskName').val(),
+                taskDescription: $('.taskDescrip').val(),
+                taskeeID: $('.taskeeID').val(),
+                status: $('.taskStatus').val(),
+                priority: $('.priority').val(),
+                startDate: $('.stDate').val(),
+                dueDate: $('.duDate').val() ,
+                updatedDate: $('.upDate').val()
+            },
+            dataType: 'json',
+            success: function(response){
+                if(response){
+                    $('.taskView > form > fieldset').empty();
+                    $('.taskView').dialog('close');
+                }else{
+                    alert('You can not update the Task for this Project');
+                }
+            }
+        })
+
+    };
 
 	// 	============================================
 	//	SETUP FOR INIT
@@ -532,9 +653,26 @@ $(document).ready(function() {
         var next2 = next.parent('.info').parent('.projectList');
         var next4 = next2.find('h3 > b');
         console.log(next4.html());
-
+        $('.taskList > ul').empty();
         getTasks(next1.html(),next4.html() );
 
+        return false;
+
+    });
+
+    /* For viewing the task*/
+    $('#taskInfo').live('click', function(e){
+        e.preventDefault();
+        console.log('new task');
+        console.log($(this));
+
+        var next = $(this).find('span');
+        var next2 = $(this).find('a > i');
+        console.log(next.html());
+        console.log(next2.html());
+
+        viewTasks(next.html(), next2.html());
+        $('.taskList').dialog('close');
         return false;
 
     });
