@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4ba476b-73a0-4321-808c-2966d8a0a31f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SFW2/Activities/Day8/jslide/js/Main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SFW2/jQuery/jquery" afterPath="$PROJECT_DIR$/SFW2/jQuery/jquery" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SFW2/Activities/Day4/activity1/js" afterPath="$PROJECT_DIR$/SFW2/Activities/Day4/activity1/js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SFW2/Activities/Day8/jslide/index.html" afterPath="$PROJECT_DIR$/SFW2/Activities/Day8/jslide/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SFW2/Activities/Day8/jslide/js/jquery.jslide.js" afterPath="$PROJECT_DIR$/SFW2/Activities/Day8/jslide/js/jquery.jslide.js" />
     </list>
     <ignored path="Work.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1375191502782" ignored="false" />
-    <file path="/index.html" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1375191597956" ignored="false" />
+    <file path="/index.html" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1375195835298" ignored="false" />
     <file path="/main.css" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1374946921848" ignored="false" />
     <file path="/sign_up.html" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1374327110359" ignored="false" />
     <file path="/tour.html" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1374154384351" ignored="false" />
@@ -25,14 +25,14 @@
     <file path="/landing.html" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1374506384376" ignored="false" />
     <file path="/app.html" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1374947304322" ignored="false" />
     <file path="$USER_HOME$/Site/ChronoBeard/js/main.js" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1374947774628" ignored="false" />
-    <file path="/main.js" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1374947770712" ignored="false" />
-    <file path="$USER_HOME$/Site/ChronoBeard/index.html" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1374938369214" ignored="false" />
+    <file path="/main.js" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1375195243674" ignored="false" />
+    <file path="$USER_HOME$/Site/ChronoBeard/index.html" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1375195850451" ignored="false" />
     <file path="$USER_HOME$/Site/ChronoBeard/templates/landing.html" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1374943101876" ignored="false" />
     <file path="$USER_HOME$/Site/ChronoBeard/templates/app.html" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1374947331983" ignored="false" />
     <file path="$USER_HOME$/Site/ChronoBeard/dashboard.html" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1374504280579" ignored="false" />
     <file path="$USER_HOME$/Site/ChronoBeard/css/main.css" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1374946928175" ignored="false" />
     <file path="/jquery.jacc.js" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1374936230488" ignored="false" />
-    <file path="/jquery.jslide.js" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1375191667045" ignored="false" />
+    <file path="/jquery.jslide.js" changelist="c4ba476b-73a0-4321-808c-2966d8a0a31f" time="1375195035285" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,10 +52,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SFW2/Activities/Day8/jslide/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="158" column="50" selection-start="15075" selection-end="15075" vertical-scroll-proportion="-98.75">
+            <state line="158" column="46" selection-start="15071" selection-end="15071" vertical-scroll-proportion="3.5639098">
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -63,22 +63,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.jslide.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SFW2/Activities/Day8/jslide/js/jquery.jslide.js">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SFW2/Activities/Day8/jslide/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="4" selection-start="312" selection-end="312" vertical-scroll-proportion="0.47756875">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="22" column="11" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SFW2/Activities/Day8/jslide/js/Main.js">
+      <file leaf-file-name="jquery.jslide.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SFW2/Activities/Day8/jslide/js/jquery.jslide.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="124" column="18" selection-start="3234" selection-end="3234" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,7 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$USER_HOME$/Site/ChronoBeard/css/main.css" />
         <option value="$PROJECT_DIR$/SFW2/ChronoBeard/sign_up.html" />
         <option value="$PROJECT_DIR$/SFW2/Activities/Day6/uidemos/store/js/jquery.jfollow.js" />
         <option value="$PROJECT_DIR$/SFW2/Activities/Day6/uidemos/store/js/script.js" />
@@ -117,6 +116,7 @@
         <option value="$PROJECT_DIR$/SFW2/Activities/Day8/jslide/js/Main.js" />
         <option value="$PROJECT_DIR$/SFW2/Activities/Day8/jslide/index.html" />
         <option value="$PROJECT_DIR$/SFW2/Activities/Day8/jslide/js/jquery.jslide.js" />
+        <option value="$PROJECT_DIR$/SFW2/Activities/Day8/jslide/js/main.js" />
       </list>
     </option>
   </component>
@@ -285,7 +285,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="fileTemplates" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Site" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
@@ -476,22 +476,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SFW2/Activities/Day8/jslide/js/Main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SFW2/Activities/Day8/jslide/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="158" column="50" selection-start="15075" selection-end="15075" vertical-scroll-proportion="-98.75">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SFW2/Activities/Day8/jslide/js/jquery.easing.1.3.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.885673">
@@ -503,9 +487,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SFW2/Activities/Day8/jslide/js/jquery.jslide.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="4" selection-start="312" selection-end="312" vertical-scroll-proportion="0.47756875">
+        <state line="124" column="18" selection-start="3234" selection-end="3234" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SFW2/Activities/Day8/jslide/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="11" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SFW2/Activities/Day8/jslide/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="158" column="46" selection-start="15071" selection-end="15071" vertical-scroll-proportion="3.5639098">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
