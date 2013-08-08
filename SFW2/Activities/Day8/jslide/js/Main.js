@@ -20,7 +20,7 @@ $(function(){
       });
 
     $('#jslider3').jslide({
-         // direction: 'vertical',
+        duration: 3000,
           prev: '#slideshow3 .prev',
           next: '#slideshow3 .next'
       });

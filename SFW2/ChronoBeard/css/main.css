@@ -46,6 +46,7 @@ header  .brand {
     float: left;
     list-style: none;
     padding: inherit;
+    cursor: pointer;
 }
 
  nav li a {
@@ -101,7 +102,7 @@ header  .brand {
 
 #drop_login label {
    font-size: 1.9em;
-    color: #e0f1c7;
+   color: #e0f1c7;
 }
 
 #drop_login input {
@@ -478,13 +479,57 @@ header  .brand {
     float: right;
     color: #2d858b;
     width: 5%;
+    margin-top: 3%;
     font-size: 3em;
     font-weight: bolder;
+    cursor: pointer;
 }
 
-#addNew:hover {
+#addNewTask {
+    float: left;
+    color: #2d858b;
+    width: 15%;
+    margin-top: 3%;
+    font-size: 1.8em;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#addNew:hover, #addNewTask:hover {
     color: #599fcf;
 }
+
+.cancelUpdate, .viewAllTasks, .updateProj, #taskInfo, .deleteProject, .deleteTask, .closeView, .signUP, #showInput, .clientInfo{
+    cursor: pointer;
+}
+
+#viewTask {
+    /*background-color: #315b5e;*/
+    /*padding: 3%;*/
+    /*width: 24%;*/
+    /*margin-left: 10%;*/
+    /*position: relative;*/
+    /*top: 316px;*/
+    /*right: 70px;*/
+    /*z-index: 1029;*/
+}
+
+.deleteProject, .deleteTask {
+    float: right;
+    color: #2d858b;
+    font-size: 1.6em;
+    width: 10%;
+}
+
+.deleteProject:hover, .deleteTask:hover {
+    color: #599fcf;
+}
+
+#addingTaskProj {
+    background-color: #e0f1c7;
+}
+
+
 
 footer {
     clear: both;

@@ -22,17 +22,41 @@
         </nav>
     </header>
 
+    <div class="hidden" id="updateUser">
+      <form>
+          <label>username: {{=user_n}}</label>
+          <input type="text" id="userName"><br>
+          <img src="{{=avatar}}">
+          <label>First Name: {{=first_name}}</label>
+          <input type="text" id="first"><br>
+          <label>Last Name: {{=last_name}}</label>
+          <input type="text" id="last"><br>
+          <label>Email: {{=email}}</label>
+          <input type="text" id="email"><br>
+          <label>Phone: {{=phone}}</label>
+          <input type="text" id="phone"><br>
+          <label>City: {{=city}}</label>
+          <input type="text" id="city"><br>
+          <label>State: {{=state}}</label>
+          <input type="text" id="state"><br>
+          <label>Zip Code: {{=zipcode}}</label>
+          <input type="text" id="zipcode"><br>
+
+          <label>Change Password:</label>
+          <label>Current Password:</label>
+          <input type="text" id="currentPass"><br>
+          <label>New Password:</label>
+          <input type="text" id="newPass"><br>
+          <label>Confirm Password:</label>
+          <input type="text" id="confirmPass"><br>
+
+          <button id="userUpdateBtn">Check that Beard</button>
+      </form>
+    </div>
 </script>
 
 
-<script type="text/template" id="template_task_link">
-
-    <!-- repeatable html for task menu -->
-
-</script>
-
-
-<script type="text/template" id="template_task_view">
+<script type="text/template" id="template_app_view">
 
 <!-- repeatable html for full task data in list -->
 <div class="clear"></div>
@@ -44,196 +68,27 @@
     <div class="column">
         <h2>Calender</h2>
         <div id="datepicker"></div>
+
     </div>
 
     <div class="column mainFocus">
         <div id="tabs">
             <ul>
                 <li><a href="#myView">My View</a></li>
-                <li><a href="#by_date">By Date</a></li>
+                <li><a href="#clients">Clients</a></li>
                 <li><a href="#by_color">By Color</a></li>
             </ul>
             <!--*************** THe TAb for Main view of Projects  -->
             <div id="myView">
                 <div class="accordion">
-                    <div class="group">
-                        <h3><b>Learn more about ChronoBeard</b> </h3>
-                        <div class="info">
-                            <div class="infoMain">
-                                <p class="hidden projID">{{=id}}</p>
-                            <p>With ChronoBeard, you can organize tasks into projects and assign tasks to your team members.
-                                You can also track time spent on tasks, produce progress reports, export your tasks and more.
-                                With Team account you can set up a team, share tasks and projects with your team, and customize with your logo.</p>
-                            <p class="dateCreated"></p>
-                            <a class="viewTask">View Tasks..</a> | <a class="updateProj">Update</a>
-                            </div>
-                            <br>
-                            <form class='hidden projectUpdate'>
-                                <fieldset>
-                                    <label>{{=projectName}}</label>
-                                    <input type="text" class="pName" placeholder="Project Name"><br>
-                                    <label>{{=status}}</label>
-                                    <input type="text" class="pStatus" placeholder="Status"><br>
-                                    <label>{{=clientID}}</label>
-                                    <input type="text" class="clientID" placeholder="Client ID"><br>
-                                    <label>{{=teamID}}</label>
-                                    <input type="text" class="teamID" placeholder="Team ID"><br>
-                                    <label>{{=startDate}}</label>
-                                    <input type="text" class="date stDate" placeholder="Start Date"><br>
-                                    <label>{{=dueDate}}</label>
-                                    <input type="text" class="date duDate" placeholder="Due Date"><br>
-                                    <label>{{=updatedDate}}</label>
-                                    <input type="text" class="date upDate" placeholder="Updated Date" required><br>
-                                    <label>Project Description</label>
-                                    <textarea type="text" class="projDescrip">{{=projectDescription}}</textarea>
-                                </fieldset>
-                                <a class='cancelUpdate'>Cancel</a>  <button class='updateProject'>Update</button>
-                                </form>
-                        </div>
-                    </div>
-                    <div class="group">
-                        <h3><b>ChronoBeard task</b> </h3>
-                        <div class="info">
-                            <div class="infoMain">
-                            <p>Why don't you try to add a new project by clicking the plus symbol at the bottom.</p>
-                            <p class="dateCreated"></p>
-                            <a class="viewTask">View Tasks..</a> | <a class="updateProj">Update</a>
-                            </div>
-                            <br>
-                            <form class='hidden projectUpdate'>
-                                <fieldset>
-                                    <label>{{=projectName}}</label>
-                                    <input type="text" class="pName" placeholder="Project Name"><br>
-                                    <label>{{=status}}</label>
-                                    <input type="text" class="pStatus" placeholder="Status"><br>
-                                    <label>{{=clientID}}</label>
-                                    <input type="text" class="clientID" placeholder="Client ID"><br>
-                                    <label>{{=teamID}}</label>
-                                    <input type="text" class="teamID" placeholder="Team ID"><br>
-                                    <label>{{=startDate}}</label>
-                                    <input type="text" class="date stDate" placeholder="Start Date"><br>
-                                    <label>{{=dueDate}}</label>
-                                    <input type="text" class="date duDate" placeholder="Due Date"><br>
-                                    <label>{{=updatedDate}}</label>
-                                    <input type="text" class="date upDate" placeholder="Updated Date" required><br>
-                                    <label>Project Description</label>
-                                    <textarea type="text" class="projDescrip">{{=projectDescription}}</textarea>
-                                </fieldset>
-                                <a class='cancelUpdate'>Cancel</a>  <button class='updateProject'>Update</button>
-                                </form>
-                    </div>
-                </div>
-                    <div class="group hidden projectList">
-                        <h3><b>{{=projectName}}</b> | {{=clientName}} | {{=status}}</h3>
-                        <div class="info">
-                            <div class="infoMain">
-                                <p class="projID hidden">{{=id}}</p>
-                                <p>Description: {{=projectDescription}}</p><br>
-                                <p> POC: {{=primaryContactName}}</p>
-                                <p class="dateCreated">Started Date: {{=startDate}} </p>
-                                <p class="dateCreated">Last Updated: {{=updatedDate}} </p>
-                                <p class="dateCreated">Due Date: {{=dueDate}} </p>
-                                <a class="viewAllTasks">View Tasks..</a> | <a class="updateProj">Update</a>
-                            </div>
-                            <br>
 
-                            <form class='hidden projectUpdate'>
-                                <fieldset>
-                                    <label>{{=projectName}}</label>
-                                    <input type="text" class="pName" placeholder="Project Name"><br>
-                                    <label>{{=status}}</label>
-                                    <input type="text" class="pStatus" placeholder="Status"><br>
-                                    <label>{{=clientID}}</label>
-                                    <input type="text" class="clientID" placeholder="Client ID"><br>
-                                    <label>{{=teamID}}</label>
-                                    <input type="text" class="teamID" placeholder="Team ID"><br>
-                                    <label>{{=startDate}}</label>
-                                    <input type="text" class="date stDate" placeholder="Start Date"><br>
-                                    <label>{{=dueDate}}</label>
-                                    <input type="text" class="date duDate" placeholder="Due Date"><br>
-                                    <label>{{=updatedDate}}</label>
-                                    <input type="text" class="date upDate" placeholder="Updated Date"><br>
-                                    <label>Project Description</label>
-                                    <textarea type="text" class="projDescrip">{{=projectDescription}}</textarea>
-                                </fieldset>
-                                <a class='cancelUpdate'>Cancel</a>  <button class='updateProject'>Update</button>
-                            </form>
-                        </div>
-                    </div>
+
                 </div>
-            <!-- Viewing Project Tasks-->
-            <div class="hidden taskError" title="{{=projectName}} Tasks">
-                <p>You currently do not have any tasks for this Project.</p>
-                <p>Go ahead an add some task...</p>
+
             </div>
-                <!-- The Task List-->
-            <div class="hidden taskList" title="{{=projectName}} Tasks">
-                <ul>
-                    <!--<li id="taskInfo"><a>{{=priority}} | {{=taskName}} | {{=assignedTo}}</a></li>-->
-                </ul>
-            </div>
-                <!-- The individual Task-->
-            <div class="hidden taskView" title="{{=projectName}} | {{=taskName}}">
-                    <form>
-                        <fieldset>
-                        <!--<label class="projectId">{{=projectID}}</label><br>-->
-                        <!--<label class="clientName">{{=clientName}}</label>-->
-                        <!--<label class="clientId">{{=clientID}}</label><br>-->
-                        <!--<label>Task Status: {{=status}}</label>-->
-                        <!--<input class="hidden" type="text" class="taskStatus" required><br>-->
-                        <!--<label>Task Name: {{=taskName}}</label>-->
-                        <!--<input class="hidden tName" type="text" class="taskName" required><br>-->
-                        <!--<label>Task Creator: {{=taskCreator}}</label>-->
-                        <!--<input class="hidden" type="text" class="creator"><br>-->
-                        <!--<label>Taskee ID: {{=taskeeID}}</label>-->
-                        <!--<input class="hidden" type="text" class="taskeeID"><br>-->
-                        <!--<label>Task Assigned To: {{=assignedTo}}</label>-->
-                        <!--<input class="hidden" type="text" class="taskeeID"><br>-->
-                        <!--<label>Priority: {{=priority}}</label>-->
-                        <!--<input class="hidden" type="text" class="priority"><br>-->
-                        <!--<label>Start Date: {{=startDate}}</label>-->
-                        <!--<input class="hidden" type="text" class="date stDate"><br>-->
-                        <!--<label>Due Date: {{=dueDate}}</label>-->
-                        <!--<input class="hidden" type="text" class="date duDate"><br>-->
-                        <!--<label>Task Description: </label>-->
-                        <!--<p>{{=taskDescription}}</p>-->
-                        <!--<textarea type="text" class="hidden taskDescrip">{{=projectID}}</textarea>-->
-                        <!--<label class="hidden">Updated Date: {{=updatedDate}}</label>-->
-                        <!--<input class="hidden" type="text" class="date duDate"><br>-->
-                        <!--<span class="hidden id">{{=id}}</span>-->
-                        </fieldset>
-                    </form>
-                </div>
-            <!-- to add a new Task-->
-            <div class="hidden" id="newTask" title="Add Task">
-                <form>
-                    <fieldset>
-                        <label class="projName">{{=projectName}}</label><br>
-                        <label class="projectId">{{=projectID}}</label><br>
-                        <label>Task Status</label>
-                        <input type="text" class="taskStatus" required><br>
-                        <label>Task Name</label>
-                        <input type="text" class="taskName" required><br>
-                        <label>Task Creator</label>
-                        <input type="text" class="creator"><br>
-                        <label>Taskee ID</label>
-                        <input type="text" class="taskeeID"><br>
-                        <label>Priority</label>
-                        <input type="text" class="priority"><br>
-                        <label>Start Date</label>
-                        <input type="text" class="date stDate"><br>
-                        <label>Due Date</label>
-                        <input type="text" class="date duDate"><br>
-                        <label>Task Description</label>
-                        <textarea type="text" class="taskDescrip"></textarea>
-                    </fieldset>
-                    <button id="addingTask">Braiding Beard</button>
-                </form>
-            </div>
-        </div>
             <!--*************** THe TAb for setting Projects by date *******************-->
-            <div id="by_date">
-                <div class="accordion">
+            <div id="clients">
+                <div class="clientStuff">
 
                 </div>
             </div>
@@ -275,56 +130,263 @@
                     </ul>
                 </div>
                 <div class="accordion">
-                    <div class="group">
-                        <h3>Learn more about ChronoBeard</h3>
-                        <div class="info">
-                            <p>With ChronoBeard, you can organize tasks into projects and assign tasks to your team members.
-                                You can also track time spent on tasks, produce progress reports, export your tasks and more.
-                                With Team account you can set up a team, share tasks and projects with your team, and customize with your logo.</p>
-                            <p class="dateCreated">{{=startDate}} </p>
-                        </div>
-                    </div>
+
 
                 </div>
             </div>
-            <!-- This is to add a new Project -->
+
+
+        </div>
+        <!-- This is to add a new Project -->
             <a id="addNew">+</a>
-            <div class="hidden" id="newProject" title="Add Project">
-                <form>
-                    <fieldset>
-                        <label>Project Name</label>
-                        <input type="text" id="pName"><br>
-                        <label>Status</label>
-                        <input type="text" id="pStatus"><br>
-                        <label>Client ID</label>
-                        <input type="text" id="clientID"><br>
-                        <label>Team ID</label>
-                        <input type="text" id="teamID"><br>
-                        <label>Start Date</label>
-                        <input type="text" class="date stDate"><br>
-                        <label>Due Date</label>
-                        <input type="text" class="date duDate"><br>
-                        <label>Project Description</label>
-                        <textarea type="text" id="projDescrip"></textarea>
-                    </fieldset>
-                    <button id="addingProject">Growing Beard</button>
-                </form>
-           </div>
+
     </div>
-    <!--  Messaging maybe if I have time and can figure something out
-     <div class="column">
-         <h2>Messaging</h2>
-         <div>
-             <input >
-         </div>
-     </div>
-        -->
+
+    <!--  Messaging maybe if I have time and can figure something out  -->
+     <!--<div class="column">-->
+         <!--<h2>Messaging</h2>-->
+         <!--<div>-->
+             <!--<input >-->
+         <!--</div>-->
+     <!--</div>-->
+
 </div>
 
 </script>
 
+<script type="text/template" id="template_project_link">
 
-<!-- more component templates here -->
+    <!-- repeatable html for task menu -->
+    <div class="group projectList">
+        <h3><b>{{=projectName}}</b> | {{=clientName}} | <i>{{=status}}</i></h3>
+        <div class="info">
+            <div class="infoMain">
+                <a class="deleteProject">x</a>
+                <p class="projID hidden">{{=id}}</p>
+                <p>Description: {{=projectDescription}}</p><br>
+                <p> POC: {{=primaryContactName}}</p>
+                <p class="dateCreated">Started Date: {{=startDate}} </p>
+                <p class="dateCreated">Last Updated: {{=updatedDate}} </p>
+                <p class="dateCreated">Due Date: {{=dueDate}} </p>
+                <a class="viewAllTasks">View Tasks..</a> | <a class="updateProj">Update</a>
+
+            </div>
+            <br>
+
+            <form class='hidden projectUpdate'>
+                <fieldset>
+                    <label class="hidden projID">{{=id}}</label>
+                    <label>{{=projectName}}</label>
+                    <input type="text" class="pName" placeholder="Project Name"><br>
+                    <label>{{=status}}</label>
+                    <select class="comboBox pStatus">
+                        <option value="urgent">Urgent</option>
+                        <option value="active">Active</option>
+                        <option value="delayed">Delayed</option>
+                        <option value="finished">Finished</option>
+                    </select><br>
+                    <label>{{=clientID}}</label>
+                    <input type="text" class="clientID" placeholder="Client ID"><br>
+                    <label>{{=teamID}}</label>
+                    <input type="text" class="teamID" placeholder="Team ID"><br>
+                    <label>{{=startDate}}</label>
+                    <input type="text" class="date stDate" placeholder="Start Date"><br>
+                    <label>{{=dueDate}}</label>
+                    <input type="text" class="date duDate" placeholder="Due Date"><br>
+                    <label>{{=updatedDate}}</label>
+                    <input type="text" class="date upDate" placeholder="Updated Date"><br>
+                    <label>Project Description</label>
+                    <textarea type="text" class="projDescrip">{{=projectDescription}}</textarea>
+                </fieldset>
+                <a class='cancelUpdate'>Cancel</a>  <button class='updateProject'>Update</button>
+            </form>
+            <div class='hidden viewTaskList'>
+                <div class="hidden taskError" title="{{=projectName}} Tasks">
+                    <p>You currently do not have any tasks for this Project.</p>
+                    <p>Go ahead an add some task...</p>
+                    <a class="closeView">Close</a>
+                </div>
+                <!-- The Task List-->
+                <div class="hidden taskList" title="{{=projectName}} Tasks">
+                    <ul>
+                        <li id="taskInfo"><a>{{=priority}} | {{=taskName}} | {{=assignedTo}}</a> <a class="deleteTask">x</a></li>
+                    </ul>
+                    <a class="closeView">Close</a>
+                </div>
+
+                <div class="hidden taskView" title="{{=projectName}} | {{=taskName}}">
+                    <form>
+                        <fieldset>
+                            <label class="projectId">{{=projectID}}</label><br>
+                            <label class="clientName">{{=clientName}}</label>
+                            <label class="clientId">{{=clientID}}</label><br>
+                            <label>Task Status: {{=status}}</label>
+                            <select class="hidden comboBox">
+                                <option value="urgent">Urgent</option>
+                                <option value="active">Active</option>
+                                <option value="delayed">Delayed</option>
+                                <option value="finished">Finished</option>
+                            </select><br>
+                            <label>Task Name: {{=taskName}}</label>
+                            <input type="text" class="hidden taskName" required><br>
+                            <label>Task Creator: {{=taskCreator}}</label>
+                            <input type="text" class="hidden creator"><br>
+                            <label>Taskee ID: {{=taskeeID}}</label>
+                            <input type="text" class="hidden taskeeID"><br>
+                            <label>Task Assigned To: {{=assignedTo}}</label>
+                            <input type="text" class="hidden assigned"><br>
+                            <label>Priority: {{=priority}}</label>
+                            <input type="text" class="hidden priority"><br>
+                            <label>Start Date: {{=startDate}}</label>
+                            <input type="text" class="hidden date stDate"><br>
+                            <label>Due Date: {{=dueDate}}</label>
+                            <input type="text" class="hidden date duDate"><br>
+                            <label>Task Description: </label>
+                            <p>{{=taskDescription}}</p>
+                            <textarea type="text" class="hidden taskDescrip">{{=taskDescription}}</textarea>
+                            <span class="hidden id">Task id: {{=id}}</span>
+                            <label class="hidden">Updated Date: {{=updatedDate}}</label>
+                            <input type="text" class="hidden date duDate"><br>
+                        </fieldset>
+                    </form>
+                </div>
+                <!-- This is to add a new Tasks -->
+                <a id="addNewTask">Add Task</a>
+            </div>
+
+        </div>
+        <!-- to add a new Project-->
+        <div class="hidden" id="newProject" title="Add Project">
+            <form>
+                <fieldset>
+                    <label>Project Name</label>
+                    <input type="text" id="pName" required><br>
+                    <label>Status</label>
+                    <select class="comboBox" id="pStatus">
+                        <option value="urgent">Urgent</option>
+                        <option value="active">Active</option>
+                        <option value="delayed">Delayed</option>
+                        <option value="finished">Finished</option>
+                    </select><br>
+                    <label>Client ID</label>
+                    <input type="text" id="clientID"><br>
+                    <label>Team ID</label>
+                    <input type="text" id="teamID"><br>
+                    <label>Start Date</label>
+                    <input type="text" class="date stDate"><br>
+                    <label>Due Date</label>
+                    <input type="text" class="date duDate"><br>
+                    <label>Project Description</label>
+                    <textarea type="text" id="projDescrip"></textarea>
+                </fieldset>
+                <button id="addingProject">Growing Beard</button>
+            </form>
+        </div>
+
+        <!-- to add a new Task-->
+        <div class="hidden" id="newTask" title="Add Task">
+            <form>
+                <fieldset>
+                    <label class="projName">{{=projectName}}</label><br>
+                    <label class="projectId">{{=projectID}}</label><br>
+                    <label>Task Status</label>
+                    <select class="comboBox tStatus">
+                        <option value="urgent">Urgent</option>
+                        <option value="active">Active</option>
+                        <option value="delayed">Delayed</option>
+                        <option value="finished">Finished</option>
+                    </select><br>
+                    <label>Task Name</label>
+                    <input type="text" class="taskName" required><br>
+                    <label>Task Creator</label>
+                    <input type="text" class="creator"><br>
+                    <label>Taskee ID</label>
+                    <input type="text" class="taskeeID"><br>
+                    <label>Priority</label>
+                    <input type="text" class="priority"><br>
+                    <label>Start Date</label>
+                    <input type="text" class="date stDate"><br>
+                    <label>Due Date</label>
+                    <input type="text" class="date duDate"><br>
+                    <label>Task Description</label>
+                    <textarea type="text" class="taskDescrip"></textarea>
+                </fieldset>
+
+                <button id="addingTask">Braiding Beard</button>
+            </form>
+        </div>
+
+    </div>
+
+
+</script>
+
+<script type="text/template" id="template_clients">
+   <div id="clientsTab">
+     <div id="listyC">
+       <p class="hidden cListy"><a class="clientInfo">ClientID: {{=id}} | Client Name:  {{=clientName}}</a></p><br>
+     </div>
+    <!-- The Client Info-->
+    <div class="hidden" id="infoClient">
+        <label class="clientId">{{=id}}</label><br>
+        <label class="clientName">{{=clientName}}</label>
+        <label>Email: {{=primaryContact}}</label>
+        <input type="text" class="hidden primary" required><br>
+        <label>Website: {{=phone}}</label>
+        <input type="text" class="hidden phone"><br>
+        <label>Email: {{=email}}</label>
+        <input type="text" class="hidden email" required><br>
+        <label>Website: {{=website}}</label>
+        <input type="text" class="hidden website"><br>
+        <label>City: {{=city}}</label>
+        <input type="text" class="hidden creator"><br>
+        <label>State: {{=state}}</label>
+        <input type="text" class="hidden taskeeID"><br>
+        <label>Zip code: {{=zipcode}}</label>
+        <input type="text" class="hidden assigned"><br>
+        <a class="closeView"> Close</a> | <a id="showInput">Make changes</a>  <button id="updateClient">Update</button>
+    </div>
+
+   <!-- to add a new Client-->
+    <div class="hidden" id="newClient" title="Add Client">
+        <form>
+            <fieldset>
+
+                <label>Client Name</label>
+                <input type="text" id="clientName" required><br>
+                <label>Primary Contact</label>
+                <input type="text" id="primaryCon"><br>
+                <label>Phone</label>
+                <input type="text" id="cPhone"><br>
+                <label>Address</label>
+                <input type="text" id="cAddress"><br>
+                <label>City</label>
+                <input type="text" id="cCity"><br>
+                <label>State</label>
+                <input type="text" id="cState"><br>
+                <label>Zip code</label>
+                <input type="text" id="czipcode"><br>
+                <label>Website</label>
+                <input type="text" id="cwebsite"><br>
+                <label>Email</label>
+                <input type="text" id="cEmail"><br>
+
+            </fieldset>
+
+            <button id="addingClient">Add a Braid</button>
+        </form>
+    </div>
+
+
+       <div class="hidden" id="clientRequest">
+           <p>Do you want to add a New Client?</p>
+           <button class="closeView">No</button>
+           <button id="requestClient">Yes</button>
+       </div>
+
+   </div>
+</script>
+
 <script type="text/template" id="template_app_footer">
 
     <!-- core application skeleton html -->
